@@ -30,7 +30,7 @@ export const Settings = () => {
                 max={120}
             />
             <Wrap>
-                <BackButton />
+                <BackButton onClick={() => settingsInfo.setShowSettings(false)} />
             </Wrap>
         </Container>
     );

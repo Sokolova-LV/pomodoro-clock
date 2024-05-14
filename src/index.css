@@ -7,9 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #F7F0E5;
   color: #141414;
-  padding: 100px 20px;
-  min-width: 340px;
+  padding: 100px 10px;
+  
   text-align: center;
+
+  @media screen and (min-width: 480px) {
+    padding: 100px 20px;
+  }
 }
 
 code {
